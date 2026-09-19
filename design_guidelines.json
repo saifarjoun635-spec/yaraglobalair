@@ -1,0 +1,150 @@
+{
+  "project_title": "Yara Global Air - Site Web Vitrine Multi-Pages (HVAC & Thermopompes)",
+  "app_type": "marketing_site",
+  "language": "fr-CA",
+  "company_info": {
+    "name": "Yara Global Air",
+    "phone": "438-680-4054",
+    "email": "yara.globalair@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=100063757231349",
+    "region": "Québec, Canada (Grand Montréal et environs)"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "font_imports": [
+      "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    ],
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-slate-300",
+      "small_label": "text-xs font-semibold tracking-widest uppercase text-cyan-400"
+    }
+  },
+  "colors": {
+    "archetype": "THE PERFORMANCE PRO / CYBER-THERMAL",
+    "mode": "Dark theme primary with optional light mode toggle",
+    "palette": {
+      "bg_primary": "#0A121E",
+      "bg_secondary": "#0F1C2E",
+      "bg_card": "#132338",
+      "bg_glass": "rgba(15, 28, 46, 0.75)",
+      "border": "#1E324D",
+      "border_highlight": "rgba(6, 182, 212, 0.4)",
+      "text_primary": "#F8FAFC",
+      "text_muted": "#94A3B8",
+      "brand_cyan": "#06B6D4",
+      "brand_cyan_light": "#38BDF8",
+      "brand_navy": "#0B192C",
+      "brand_amber_swirl": "#F97316",
+      "brand_amber_accent": "#F59E0B",
+      "status_green": "#10B981"
+    }
+  },
+  "layout": {
+    "spacing_scale": "p-4, p-6, p-8, p-12, p-16, p-24, p-32",
+    "max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_strategy": "Tetris Grid Mode A for visual tension, high-contrast bento layout for 4 services and sectors"
+  },
+  "key_components": [
+    {
+      "name": "Navigation Bar",
+      "path": "src/components/Navbar.js",
+      "description": "Sticky glassmorphic navbar with logo (blue navy + cyan + amber swirl icon), nav links (Accueil, Services, Secteurs, Calculette, Blogue, Contact), telephone direct link, and CTA button. Hamburger menu on mobile."
+    },
+    {
+      "name": "Kinetic Hero Section",
+      "path": "src/components/Hero.js",
+      "description": "Uncluttered, impactful landing hero with animated airflow particles, masked headline reveal ('Climatisation & Chauffage Haute Performance au Québec'), trust badges (Diagnostic 360°, Urgence 24/7, Fluides Eco), and primary CTAs (Demander une soumission, Appeler 438-680-4054)."
+    },
+    {
+      "name": "Services Showcase (4 Core Services)",
+      "path": "src/components/ServicesSection.js",
+      "description": "Bento grid displaying: 1) Nettoyage approfondi et entretien préventif, 2) Inspection et diagnostic technique, 3) Réparation et dépannage résidentiel & commercial, 4) Gestion écoresponsable des fluides frigorigènes. Features interactive expand/detail cards."
+    },
+    {
+      "name": "Sectors Section (Résidentiel & Commercial PME)",
+      "path": "src/components/SectorsSection.js",
+      "description": "Interactive dual-tab view highlighting tailored solutions for Residential (Maisons, Duplex, Condos, Immeubles locatifs) and Commercial PME (Bureaux, Commerces, Restaurants)."
+    },
+    {
+      "name": "Eco-Performance & Savings Estimator",
+      "path": "src/components/SavingsCalculator.js",
+      "description": "Interactive slider calculator letting homeowners estimate potential energy bill reduction (up to 30-45%) and heat pump lifespan extension with regular maintenance."
+    },
+    {
+      "name": "Editorial Marquee",
+      "path": "src/components/EditorialMarquee.js",
+      "description": "Slow drift marquee featuring key technical assurances: Entretien Préventif • Thermopompe Central & Mural • Diagnostic Éco-Énergétique • Réfrigération PME • Service Rapide 438-680-4054."
+    },
+    {
+      "name": "Blog Section & Article Drawer",
+      "path": "src/components/BlogSection.js",
+      "description": "Grid of French articles (e.g., 'Comment préparer votre thermopompe pour l’hiver québécois', 'Les signes que votre climatiseur a besoin d’un entretien approfondi', 'Gestion des fluides frigorigènes: Règlementation & Écologie'). Includes full modal view for reading articles."
+    },
+    {
+      "name": "Contact & Direct Actions Section",
+      "path": "src/components/ContactSection.js",
+      "description": "Direct communication hub without backend: mailto:yara.globalair@gmail.com, tel:4386804054, sms:4386804054, and direct Facebook link. Clean submission form triggering mailto compose."
+    },
+    {
+      "name": "Floating Pulsing Contact Button",
+      "path": "src/components/FloatingContactButton.js",
+      "description": "Fixed bottom-right pulsating amber/cyan badge with direct phone, SMS, and mail quick menu. High visibility on mobile and desktop."
+    },
+    {
+      "name": "Footer",
+      "path": "src/components/Footer.js",
+      "description": "High contrast deep footer with company info, service links, Quebec license disclaimer, Facebook icon, and contact details."
+    }
+  ],
+  "image_urls": {
+    "hvac_technician_1": "https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "hvac_technician_2": "https://images.pexels.com/photos/6471913/pexels-photo-6471913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "heat_pump_interior": "https://images.unsplash.com/photo-1761330440311-16e160cad236?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "quebec_modern_home": "https://images.unsplash.com/photo-1744858207708-6c3cfccc9319?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "quebec_cabin_snow": "https://images.pexels.com/photos/19909598/pexels-photo-19909598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outdoor_ac_units": "https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "required_test_ids": {
+    "nav_logo": "nav-logo",
+    "nav_link_services": "nav-link-services",
+    "nav_link_secteurs": "nav-link-secteurs",
+    "nav_link_blog": "nav-link-blog",
+    "nav_link_contact": "nav-link-contact",
+    "hero_cta_call": "hero-cta-call",
+    "hero_cta_quote": "hero-cta-quote",
+    "service_card_nettoyage": "service-card-nettoyage",
+    "service_card_inspection": "service-card-inspection",
+    "service_card_reparation": "service-card-reparation",
+    "service_card_fluides": "service-card-fluides",
+    "sector_tab_residential": "sector-tab-residential",
+    "sector_tab_commercial": "sector-tab-commercial",
+    "calculator_slider": "calculator-slider",
+    "floating_contact_button": "floating-contact-button",
+    "contact_phone_link": "contact-phone-link",
+    "contact_email_link": "contact-email-link",
+    "contact_sms_link": "contact-sms-link",
+    "contact_facebook_link": "contact-facebook-link"
+  },
+  "instructions_to_main_agent": [
+    "Follow the exact company color scheme: deep navy (#0A121E, #0F1C2E), cyan accents (#06B6D4), amber swirl accents (#F97316).",
+    "Use French language for all content, headings, badges, and blog articles.",
+    "Ensure all interactive components have exact data-testid attributes matching the list provided.",
+    "Install required icons library (@phosphor-icons/react or lucide-react) and framer-motion if needed for smooth scroll and animations.",
+    "Keep the homepage hero clean and open, avoid clutter, and highlight direct contact actions (438-680-4054, yara.globalair@gmail.com).",
+    "Make sure floating contact button pulses smoothly at bottom-right corner."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Avoid default centered plain layouts. Build layered design elements with z-index hierarchy and glassmorphic overlays.",
+    "Do NOT use universal transition 'transition: all'. Apply explicit transitions like transition-color, transition-transform.",
+    "Do NOT add text-align center to .App container.",
+    "Use modern pill-shaped or sharp buttons with subtle hover glow matching cyan/amber brand accents.",
+    "Never use generic AI emojis (🤖🧠💭). Use clean Phosphor or Lucide SVG icons.",
+    "Add data-testid attributes to all interactive links, buttons, form controls, and cards."
+  ]
+}
