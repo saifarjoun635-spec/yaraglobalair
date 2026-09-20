@@ -27,9 +27,9 @@ export default function AirflowCanvas({ className }) {
             x: Math.random() * w,
             y: Math.random() * h,
             s: 0.35 + Math.random() * 1.1,
-            a: 0.05 + Math.random() * 0.3,
+            a: 0.06 + Math.random() * 0.22,
             off: Math.random() * Math.PI * 2,
-            hue: Math.random() < 0.85 ? '56,189,248' : '249,115,22',
+            hue: Math.random() < 0.85 ? '27,118,201' : '224,127,31',
         }));
 
         let t = 0;
@@ -59,7 +59,7 @@ export default function AirflowCanvas({ className }) {
                     if (x === 0) ctx.moveTo(x, y);
                     else ctx.lineTo(x, y);
                 }
-                ctx.strokeStyle = `rgba(56,189,248,${0.04 + 0.02 * i})`;
+                ctx.strokeStyle = `rgba(27,118,201,${0.05 + 0.02 * i})`;
                 ctx.stroke();
             }
 

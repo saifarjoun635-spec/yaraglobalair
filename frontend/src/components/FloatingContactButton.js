@@ -27,9 +27,9 @@ export default function FloatingContactButton() {
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: 10, scale: 0.9 }}
                             transition={{ duration: 0.28, delay: i * 0.05, ease: [0.16, 1, 0.3, 1] }}
-                            className="flex items-center gap-3 rounded-full border border-[#1E324D] bg-[#0F1C2E]/95 py-2.5 pl-4 pr-5 text-sm font-semibold text-slate-100 shadow-xl shadow-black/40 backdrop-blur transition-colors duration-300 hover:border-cyan-400/50 hover:text-cyan-300"
+                            className="flex items-center gap-3 rounded-full border border-[#DBE7F3] bg-white/95 py-2.5 pl-4 pr-5 text-sm font-semibold text-[#123057] shadow-xl shadow-[#123057]/15 backdrop-blur transition-colors duration-300 hover:border-[#1B76C9]/50 hover:text-[#1B76C9]"
                         >
-                            <a.icon className="h-4 w-4 text-cyan-400" />
+                            <a.icon className="h-4 w-4 text-[#1B76C9]" />
                             {a.label}
                         </motion.a>
                     ))}
@@ -42,9 +42,9 @@ export default function FloatingContactButton() {
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ delay: 1.2, type: 'spring', stiffness: 260, damping: 18 }}
-                className={`relative flex h-16 w-16 items-center justify-center rounded-full text-[#0A121E] shadow-2xl ${
-                    open ? 'bg-slate-200' : 'animate-soft-blink bg-amber-500 hover:bg-amber-400'
-                } transition-colors duration-300`}
+                className={`relative flex h-16 w-16 items-center justify-center rounded-full shadow-2xl transition-colors duration-300 ${
+                    open ? 'bg-[#123057] text-white' : 'animate-soft-blink bg-amber-500 text-[#123057] hover:bg-amber-400'
+                }`}
             >
                 {!open && (
                     <>

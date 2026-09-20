@@ -5,8 +5,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingContactButton from './components/FloatingContactButton';
 import Home from './pages/Home';
+import APropos from './pages/APropos';
 import Services from './pages/Services';
-import Secteurs from './pages/Secteurs';
+import NotreVision from './pages/NotreVision';
 import Blogue from './pages/Blogue';
 import Article from './pages/Article';
 import Contact from './pages/Contact';
@@ -43,14 +44,15 @@ export default function App() {
 
     return (
         <BrowserRouter>
-            <div className="min-h-screen bg-[#0A121E] text-slate-100 antialiased">
+            <div className="min-h-screen bg-[#F5F9FD] text-[#123057] antialiased">
                 <ScrollManager />
                 <Navbar />
                 <main>
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/a-propos" element={<APropos />} />
                         <Route path="/services" element={<Services />} />
-                        <Route path="/secteurs" element={<Secteurs />} />
+                        <Route path="/notre-vision" element={<NotreVision />} />
                         <Route path="/blogue" element={<Blogue />} />
                         <Route path="/blogue/:slug" element={<Article />} />
                         <Route path="/contact" element={<Contact />} />
