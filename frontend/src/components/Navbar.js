@@ -38,20 +38,12 @@ export default function Navbar() {
             }`}
         >
             <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-                <Link to="/" data-testid="nav-logo" className="group flex items-center gap-3">
+                <Link to="/" data-testid="nav-logo" className="group flex items-center">
                     <img
-                        src="/assets/icon.png"
-                        alt="Yara Global Air"
-                        className="h-10 w-auto transition-transform duration-500 group-hover:scale-105"
+                        src="/assets/logo-full.png"
+                        alt="Yara Global Air — Climatisation, chauffage et réfrigération, certifié expert"
+                        className="h-12 w-auto transition-transform duration-500 group-hover:scale-[1.04] sm:h-14"
                     />
-                    <span className="hidden flex-col leading-none sm:flex">
-                        <span className="font-display text-sm font-extrabold tracking-[0.16em] text-[#123057]">
-                            YARA GLOBAL AIR
-                        </span>
-                        <span className="font-tech mt-1 text-[10px] uppercase tracking-[0.26em] text-[#1B76C9]">
-                            Climatisation · Chauffage
-                        </span>
-                    </span>
                 </Link>
 
                 <div className="hidden items-center gap-1 lg:flex">

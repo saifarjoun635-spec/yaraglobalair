@@ -29,6 +29,16 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 - `/blogue` + `/blogue/:slug` : 4 articles d'exemple (contenu MOCKÉ à remplacer).
 - `/contact` : canaux directs (tel/sms/info@yara.globalair.ca/Facebook), adresse, formulaire mailto vers le Gmail.
 
+## Révision 2026-09-21 (photos client + logo intégral)
+- Le logo client COMPLET et NON MODIFIÉ est utilisé partout : menu, pied de page, page À propos, favicon (/public/assets/logo-full.png). L'icône découpée a été supprimée.
+- Photos fournies par le client, placées selon les noms de fichiers :
+  - /assets/inspection.webp → Service « Inspection & diagnostic »
+  - /assets/reparation.jpg → Service « Réparation & dépannage »
+  - /assets/fluides.webp → Service « Fluides frigorigènes »
+  - /assets/reglementation.webp → Blogue « Fluides frigorigènes : réglementation »
+  - /assets/murale-ou-centrale.jpg → Blogue « Thermopompe murale ou centrale »
+- Restent en stock : nettoyage (Pexels échafaudage), blogue hiver (pompe sous la neige), blogue signes (unité murale).
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.

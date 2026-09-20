@@ -44,7 +44,7 @@ export const SERVICES = [
             'Recherche précise de pannes — aucune devinette',
         ],
         icon: 'gauge',
-        image: 'https://images.pexels.com/photos/6471912/pexels-photo-6471912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/inspection.webp',
     },
     {
         id: 'reparation',
@@ -60,7 +60,7 @@ export const SERVICES = [
             'Un seul appel suffit : 438-680-4054',
         ],
         icon: 'wrench',
-        image: 'https://images.pexels.com/photos/5463580/pexels-photo-5463580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/reparation.jpg',
     },
     {
         id: 'fluides',
@@ -76,7 +76,7 @@ export const SERVICES = [
             'Traçabilité complète de chaque intervention',
         ],
         icon: 'leaf',
-        image: 'https://images.pexels.com/photos/38709544/pexels-photo-38709544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/fluides.webp',
     },
 ];
 
@@ -124,7 +124,7 @@ export const ARTICLES = [
         readTime: '6 min',
         excerpt:
             'Manipulation certifiée, récupération obligatoire, nouvelles générations de gaz : ce que tout propriétaire devrait savoir.',
-        image: 'https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/reglementation.webp',
         body: [
             'Les fluides frigorigènes sont le cœur de votre système de climatisation ou de chauffage — et aussi sa composante la plus réglementée. Au Canada, leur manipulation est encadrée par le Code de pratique environnementale et exige une certification spécifique.',
             "Concrètement, seul un technicien titulaire d'un certificat en manipulation des halocarbures peut légalement ajouter, retirer ou récupérer du fluide frigorigène. Le fameux « rajout de gaz » improvisé est non seulement illégal, mais dommageable : une fuite non colmatée rejette un gaz à fort potentiel de réchauffement global.",
@@ -141,7 +141,7 @@ export const ARTICLES = [
         readTime: '5 min',
         excerpt:
             'Deux technologies, deux philosophies de confort. Les vrais critères pour choisir selon votre bâtiment et votre budget.',
-        image: 'https://images.pexels.com/photos/6316054/pexels-photo-6316054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/murale-ou-centrale.jpg',
         body: [
             "C'est LA question qu'on nous pose le plus souvent. La réponse dépend d'abord de votre bâtiment, pas de la technologie.",
             'La thermopompe murale (mini-split) brille dans les maisons sans conduits de ventilation : duplex, triplex, condos et maisons plus anciennes. Installation rapide, excellent rendement énergétique, contrôle par zone — vous ne climatisez que les pièces que vous utilisez.',

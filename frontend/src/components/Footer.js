@@ -7,16 +7,14 @@ export default function Footer() {
         <footer data-testid="site-footer" className="bg-[#123057]">
             <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-3 lg:px-8">
                 <div className="space-y-5">
-                    <div className="flex items-center gap-3">
-                        <span className="flex items-center justify-center rounded-xl bg-white px-3 py-2">
-                            <img src="/assets/icon.png" alt="Yara Global Air" className="h-8 w-auto object-contain" />
+                    <div>
+                        <span className="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-4">
+                            <img
+                                src="/assets/logo-full.png"
+                                alt="Yara Global Air — Climatisation, chauffage et réfrigération, certifié expert"
+                                className="h-16 w-auto object-contain"
+                            />
                         </span>
-                        <div className="leading-tight">
-                            <p className="font-display font-extrabold tracking-[0.14em] text-white">YARA GLOBAL AIR</p>
-                            <p className="font-tech text-[10px] uppercase tracking-[0.24em] text-sky-300">
-                                Certifié expert
-                            </p>
-                        </div>
                     </div>
                     <p className="max-w-xs text-sm leading-relaxed text-slate-300">
                         Climatisation, chauffage, réfrigération et ventilation. Nettoyage, diagnostic, réparation et
