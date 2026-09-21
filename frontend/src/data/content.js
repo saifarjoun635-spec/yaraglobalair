@@ -28,7 +28,7 @@ export const SERVICES = [
             'Un air intérieur plus sain pour toute la famille',
         ],
         icon: 'sparkles',
-        image: 'https://images.pexels.com/photos/27681472/pexels-photo-27681472.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/nettoyage.jpg',
     },
     {
         id: 'inspection',
