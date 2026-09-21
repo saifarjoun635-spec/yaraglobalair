@@ -13,7 +13,7 @@ export default function Article() {
         <div data-testid="article-page">
             <section className="relative overflow-hidden">
                 <div className="absolute inset-0">
-                    <img src={article.image} alt={article.title} className="h-full w-full object-cover" />
+                    <img src={article.image} alt={article.title} className={`h-full w-full ${article.fit === 'contain' ? 'bg-white object-contain' : 'object-cover'}`} />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#F5F9FD] via-[#123057]/60 to-[#123057]/30" />
                 </div>
                 <div className="relative mx-auto max-w-4xl px-4 pb-16 pt-44 sm:px-6 lg:px-8">

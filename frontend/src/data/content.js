@@ -89,7 +89,7 @@ export const ARTICLES = [
         readTime: '5 min',
         excerpt:
             "Glace sur l'unité extérieure, cycles de dégivrage, dégagement à prévoir : voici comment arriver en novembre l'esprit tranquille.",
-        image: 'https://images.pexels.com/photos/35883417/pexels-photo-35883417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/entretien.webp',
         body: [
             "Au Québec, une thermopompe travaille fort. Entre les nuits à -25 °C et les redoux de mars, votre système enchaîne les cycles de chauffage et de dégivrage. Un peu de préparation à l'automne fait toute la différence entre un hiver confortable et une panne au pire moment.",
             "Commencez par l'essentiel : dégagez l'unité extérieure. Laissez au moins 50 cm d'espace tout autour, coupez la végétation qui s'approche et assurez-vous que l'unité est surélevée pour éviter qu'elle ne s'ensable dans la neige et la glace.",
@@ -142,6 +142,7 @@ export const ARTICLES = [
         excerpt:
             'Deux technologies, deux philosophies de confort. Les vrais critères pour choisir selon votre bâtiment et votre budget.',
         image: '/assets/murale-ou-centrale.jpg',
+        fit: 'contain',
         body: [
             "C'est LA question qu'on nous pose le plus souvent. La réponse dépend d'abord de votre bâtiment, pas de la technologie.",
             'La thermopompe murale (mini-split) brille dans les maisons sans conduits de ventilation : duplex, triplex, condos et maisons plus anciennes. Installation rapide, excellent rendement énergétique, contrôle par zone — vous ne climatisez que les pièces que vous utilisez.',

@@ -243,7 +243,7 @@ export default function Home() {
                                             src={a.image}
                                             alt={a.title}
                                             loading="lazy"
-                                            className="h-full w-full object-cover transition-transform duration-[1.2s] group-hover:scale-105"
+                                            className={`h-full w-full transition-transform duration-[1.2s] group-hover:scale-105 ${a.fit === 'contain' ? 'bg-white object-contain' : 'object-cover'}`}
                                         />
                                     </div>
                                     <div className="flex flex-1 flex-col p-6">

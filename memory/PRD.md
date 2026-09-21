@@ -39,6 +39,11 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
   - /assets/murale-ou-centrale.jpg → Blogue « Thermopompe murale ou centrale »
 - Restent en stock : nettoyage (Pexels échafaudage), blogue hiver (pompe sous la neige), blogue signes (unité murale).
 
+## Révision 2026-09-21b (photos blogue)
+- Blogue « Comment préparer votre thermopompe pour l'hiver » → /assets/entretien.webp (illustration déneigement envoyée par le client).
+- Blogue « Thermopompe murale ou centrale » → affichage object-contain (visuel Daikin non recadré) via champ fit:'contain' (Blogue, Accueil, Article).
+- Service « Nettoyage approfondi » : la photo voulue était un fichier .htm (lien vers entreprisesmst.com, image mst-blog-header-maintenance.jpg) BLOQUÉ par un captcha anti-robot — impossible à télécharger même via navigateur intégré. Photo Pexels (nettoyage échafaudage) remise en fallback. EN ATTENTE : le client doit renvoyer la photo en fichier image direct (.jpg/.png/.webp).
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.

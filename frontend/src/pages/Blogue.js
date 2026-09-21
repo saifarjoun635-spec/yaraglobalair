@@ -45,7 +45,7 @@ export default function Blogue() {
                                         src={a.image}
                                         alt={a.title}
                                         loading="lazy"
-                                        className="h-full w-full object-cover transition-transform duration-[1.2s] group-hover:scale-105"
+                                        className={`h-full w-full transition-transform duration-[1.2s] group-hover:scale-105 ${a.fit === 'contain' ? 'bg-white object-contain' : 'object-cover'}`}
                                     />
                                     <span className="absolute left-4 top-4 rounded-full border border-[#DBE7F3] bg-white/90 px-3 py-1 font-tech text-[10px] uppercase tracking-[0.22em] text-[#E07F1F] backdrop-blur">
                                         {a.tag}
