@@ -73,14 +73,6 @@ export default function Footer() {
                                 <Mail className="h-4 w-4 shrink-0 text-amber-400" /> {COMPANY.emailPro}
                             </a>
                         </li>
-                        <li>
-                            <a
-                                href={COMPANY.emailHref}
-                                className="flex items-center gap-3 break-all text-slate-300 transition-colors duration-300 hover:text-sky-300"
-                            >
-                                <Mail className="h-4 w-4 shrink-0 text-amber-400" /> {COMPANY.email}
-                            </a>
-                        </li>
                         <li className="flex items-start gap-3 text-slate-300">
                             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
                             <span>

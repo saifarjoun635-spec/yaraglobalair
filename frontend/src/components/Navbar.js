@@ -42,7 +42,7 @@ export default function Navbar() {
                     <img
                         src="/assets/logo-full.png"
                         alt="Yara Global Air — Climatisation, chauffage et réfrigération, certifié expert"
-                        className="h-12 w-auto transition-transform duration-500 group-hover:scale-[1.04] sm:h-14"
+                        className="h-14 w-auto transition-transform duration-500 group-hover:scale-[1.04] sm:h-16"
                     />
                 </Link>
 

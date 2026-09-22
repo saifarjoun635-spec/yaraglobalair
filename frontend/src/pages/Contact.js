@@ -117,9 +117,6 @@ export default function Contact() {
                                             <span className="font-display break-all text-lg font-bold text-white">
                                                 {COMPANY.emailPro}
                                             </span>
-                                            <span className="block text-xs text-slate-400">
-                                                aussi : {COMPANY.email}
-                                            </span>
                                         </span>
                                     </a>
                                 </li>

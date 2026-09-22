@@ -38,7 +38,14 @@ export default function APropos() {
                                 alt="Logo Yara Global Air"
                                 className="w-52 max-w-full sm:w-60"
                             />
-                            <p className="mt-8 text-lg leading-relaxed text-slate-600">{ABOUT_TEXT.paragraphs[0]}</p>
+                            <p className="mt-8 text-lg leading-relaxed text-slate-600">
+                                {ABOUT_TEXT.paragraphs[0].split('(CVC-R)').map((part, i, arr) => (
+                                    <span key={i}>
+                                        {part}
+                                        {i < arr.length - 1 && <span className="whitespace-nowrap">(CVC-R)</span>}
+                                    </span>
+                                ))}
+                            </p>
                             <div className="mt-8 flex flex-wrap gap-2">
                                 {EXPERTISES.map((e) => (
                                     <span

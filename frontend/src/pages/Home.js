@@ -146,7 +146,14 @@ export default function Home() {
                             <h2 className="font-display mt-4 text-3xl font-extrabold tracking-tight text-[#123057] sm:text-4xl">
                                 {ABOUT_TEXT.tagline}
                             </h2>
-                            <p className="mt-5 max-w-2xl leading-relaxed text-slate-600">{ABOUT_TEXT.paragraphs[0]}</p>
+                            <p className="mt-5 max-w-2xl leading-relaxed text-slate-600">
+                                {ABOUT_TEXT.paragraphs[0].split('(CVC-R)').map((part, i, arr) => (
+                                    <span key={i}>
+                                        {part}
+                                        {i < arr.length - 1 && <span className="whitespace-nowrap">(CVC-R)</span>}
+                                    </span>
+                                ))}
+                            </p>
                             <Link
                                 to="/a-propos"
                                 data-testid="home-about-link"

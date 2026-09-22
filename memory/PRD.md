@@ -63,6 +63,12 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 ## Révision 2026-09-22e
 - « Découvrir notre vision » : transformé en lien texte identique à « En savoir plus » (même taille, même police, même bleu, même flèche), aligné en haut à droite de la carte vision.
 
+## Révision 2026-09-23
+- Courriel unique partout : info@yaraglobalair.ca (tout en minuscules). Gmail retiré (pied de page, Contact, formulaire mailto, bouton flottant).
+- Logo du menu agrandi (h-14 → sm:h-16).
+- Article « 5 signes… » : « climatiseur » → « thermopompe » (titre, extrait, intro).
+- « (CVC-R) » rendu insécable (whitespace-nowrap) dans l'encart À propos de l'accueil et la page À propos.
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.
