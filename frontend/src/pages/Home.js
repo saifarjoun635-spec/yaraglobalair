@@ -215,16 +215,16 @@ export default function Home() {
                 <Reveal>
                     <div
                         data-testid="home-vision-teaser"
-                        className="relative overflow-hidden rounded-3xl bg-[#123057] px-8 py-10 sm:px-12 sm:py-12"
+                        className="card-glow relative overflow-hidden rounded-3xl border border-[#DBE7F3] bg-white px-6 py-8 shadow-sm sm:px-12 sm:py-12"
                     >
-                        <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-sky-400/15 blur-3xl" />
-                        <div className="pointer-events-none absolute -bottom-20 -left-10 h-48 w-48 rounded-full bg-amber-500/10 blur-3xl" />
-                        <div className="relative flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:justify-between">
+                        <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-[#1B76C9]/8 blur-3xl" />
+                        <div className="pointer-events-none absolute -bottom-20 -left-10 h-48 w-48 rounded-full bg-[#E07F1F]/8 blur-3xl" />
+                        <div className="relative flex flex-col items-start gap-7 lg:flex-row lg:items-center lg:justify-between">
                             <div className="max-w-2xl">
-                                <p className="font-tech text-xs uppercase tracking-[0.3em] text-sky-300">
+                                <p className="font-tech text-xs uppercase tracking-[0.3em] text-[#1B76C9]">
                                     Notre vision
                                 </p>
-                                <p className="font-display mt-4 text-xl font-bold leading-snug text-white sm:text-2xl">
+                                <p className="font-display mt-4 text-lg font-bold leading-snug text-[#123057] sm:text-2xl">
                                     « Être la référence incontournable de notre région grâce à un savoir-faire
                                     technique rigoureux et un service de proximité incomparable. »
                                 </p>
@@ -233,7 +233,7 @@ export default function Home() {
                                         (v) => (
                                             <span
                                                 key={v}
-                                                className="rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-medium text-slate-300"
+                                                className="rounded-full border border-[#1B76C9]/25 bg-[#1B76C9]/5 px-3.5 py-1.5 text-xs font-medium text-[#1B76C9]"
                                             >
                                                 {v}
                                             </span>
@@ -244,7 +244,7 @@ export default function Home() {
                             <Link
                                 to="/notre-vision"
                                 data-testid="home-vision-link"
-                                className="group flex shrink-0 items-center gap-2 rounded-full bg-amber-500 px-6 py-3.5 font-display text-sm font-bold uppercase tracking-wide text-[#123057] transition-[background-color,transform] duration-300 hover:scale-[1.03] hover:bg-amber-400"
+                                className="group flex w-full shrink-0 items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3.5 font-display text-sm font-bold uppercase tracking-wide text-[#123057] transition-[background-color,transform] duration-300 hover:scale-[1.03] hover:bg-amber-400 sm:w-auto"
                             >
                                 Découvrir notre vision
                                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />

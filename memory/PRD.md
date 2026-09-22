@@ -52,6 +52,10 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 - Accueil : encart compact « Notre vision » (citation + 4 valeurs + CTA vers /notre-vision) ajouté entre l'aperçu services et le blogue.
 - Trait d'union : « Drummondville-Victoriaville » partout (content.js address/region + badge Accueil).
 
+## Révision 2026-09-22c
+- Adresse exacte client : « Drummondville-Victoriaville · Centre-du-Québec » (trait d'union + point médian).
+- Encart Vision (accueil) refait en carte claire (fond blanc, texte marine, pastilles bleues, bouton orange pleine largeur sur mobile) pour rester cohérent avec le design du site sur téléphone.
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.
