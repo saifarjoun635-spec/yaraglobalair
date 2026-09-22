@@ -9,8 +9,8 @@ export const COMPANY = {
     emailPro: 'info@yara.globalair.ca',
     emailProHref: 'mailto:info@yara.globalair.ca',
     facebook: 'https://www.facebook.com/profile.php?id=100063757231349&locale=gl_ES#',
-    address: 'Victoriaville — Centre-du-Québec',
-    region: 'Victoriaville, le Centre-du-Québec et la région de Québec',
+    address: 'Drummondville · Victoriaville — Centre-du-Québec',
+    region: 'Drummondville, Victoriaville, le Centre-du-Québec et la région de Québec',
 };
 
 export const SERVICES = [
@@ -106,7 +106,7 @@ export const ARTICLES = [
         readTime: '4 min',
         excerpt:
             'Bruit, odeurs, facture qui grimpe : votre climatiseur vous parle. Apprenez à reconnaître les signaux avant la panne estivale.',
-        image: 'https://images.pexels.com/photos/38788452/pexels-photo-38788452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        image: '/assets/signes.jpg',
         body: [
             'Un climatiseur ou une thermopompe en mode froid ne tombe presque jamais en panne sans avertissement. Voici les cinq signaux que nos techniciens observent le plus souvent avant un bris complet.',
             "1. L'air est moins froid qu'avant. Si le système tourne plus longtemps pour atteindre la même température, les serpentins sont probablement encrassés ou le niveau de fluide frigorigène est insuffisant.",

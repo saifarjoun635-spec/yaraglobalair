@@ -44,6 +44,10 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 - Blogue « Thermopompe murale ou centrale » → affichage object-contain (visuel Daikin non recadré) via champ fit:'contain' (Blogue, Accueil, Article).
 - Service « Nettoyage approfondi » : photo client reçue en fichier image direct → /assets/nettoyage.jpg (technicien YG au lavage sous pression d'une unité murale). RÉSOLU.
 
+## Révision 2026-09-22
+- Blogue « 5 signes… » → /assets/signes.jpg (unité murale soufflant dans un salon, envoyée par le client).
+- Adresse : « Drummondville · Victoriaville — Centre-du-Québec » (+ mention région de Québec). Mise à jour partout : Contact, pied de page, badge Accueil, texte hero.
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.

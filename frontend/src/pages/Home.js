@@ -107,7 +107,7 @@ export default function Home() {
                         {[
                             { icon: BadgeCheck, label: 'Techniciens certifiés' },
                             { icon: ShieldCheck, label: 'Fluides gérés écoresponsablement' },
-                            { icon: MapPin, label: 'Victoriaville · Centre-du-Québec' },
+                            { icon: MapPin, label: 'Drummondville · Victoriaville · Centre-du-Québec' },
                         ].map((b) => (
                             <span key={b.label} className="flex items-center gap-2 text-sm text-slate-600">
                                 <b.icon className="h-4 w-4 text-[#1B76C9]" /> {b.label}
