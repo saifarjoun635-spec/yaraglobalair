@@ -60,6 +60,9 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 - Bouton « Découvrir notre vision » (accueil) : bleu #1B76C9 au lieu d'orange, uniforme avec la page.
 - Villes : points médians partout — « Drummondville · Victoriaville · Centre-du-Québec » (plus de trait d'union entre les villes ; Centre-du-Québec garde ses traits d'union officiels).
 
+## Révision 2026-09-22e
+- « Découvrir notre vision » : transformé en lien texte identique à « En savoir plus » (même taille, même police, même bleu, même flèche), aligné en haut à droite de la carte vision.
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.

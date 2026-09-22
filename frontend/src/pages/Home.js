@@ -219,7 +219,7 @@ export default function Home() {
                     >
                         <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-[#1B76C9]/8 blur-3xl" />
                         <div className="pointer-events-none absolute -bottom-20 -left-10 h-48 w-48 rounded-full bg-[#E07F1F]/8 blur-3xl" />
-                        <div className="relative flex flex-col items-start gap-7 lg:flex-row lg:items-center lg:justify-between">
+                        <div className="relative flex flex-col items-start gap-7 lg:flex-row lg:items-start lg:justify-between">
                             <div className="max-w-2xl">
                                 <p className="font-tech text-xs uppercase tracking-[0.3em] text-[#1B76C9]">
                                     Notre vision
@@ -244,10 +244,10 @@ export default function Home() {
                             <Link
                                 to="/notre-vision"
                                 data-testid="home-vision-link"
-                                className="group flex w-full shrink-0 items-center justify-center gap-2 rounded-full bg-[#1B76C9] px-6 py-3.5 font-display text-sm font-bold uppercase tracking-wide text-white transition-[background-color,transform] duration-300 hover:scale-[1.03] hover:bg-[#155FA3] sm:w-auto"
+                                className="group flex shrink-0 items-center gap-2 text-sm font-semibold text-[#1B76C9] transition-colors duration-300 hover:text-[#123057] lg:mt-1"
                             >
                                 Découvrir notre vision
-                                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1.5" />
                             </Link>
                         </div>
                     </div>
