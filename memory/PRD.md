@@ -48,6 +48,10 @@ Site web multi-pages en français pour Yara Global Air (climatisation, chauffage
 - Blogue « 5 signes… » → /assets/signes.jpg (unité murale soufflant dans un salon, envoyée par le client).
 - Adresse : « Drummondville · Victoriaville — Centre-du-Québec » (+ mention région de Québec). Mise à jour partout : Contact, pied de page, badge Accueil, texte hero.
 
+## Révision 2026-09-22b
+- Accueil : encart compact « Notre vision » (citation + 4 valeurs + CTA vers /notre-vision) ajouté entre l'aperçu services et le blogue.
+- Trait d'union : « Drummondville-Victoriaville » partout (content.js address/region + badge Accueil).
+
 ## Backlog
 - P0 : Vérifier que la boîte info@yara.globalair.ca existe (le formulaire mailto affiche cette adresse mais envoie via le Gmail ; me dire pour inverser).
 - P0 : Remplacer les articles du blogue par du vrai contenu.

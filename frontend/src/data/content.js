@@ -9,8 +9,8 @@ export const COMPANY = {
     emailPro: 'info@yara.globalair.ca',
     emailProHref: 'mailto:info@yara.globalair.ca',
     facebook: 'https://www.facebook.com/profile.php?id=100063757231349&locale=gl_ES#',
-    address: 'Drummondville · Victoriaville — Centre-du-Québec',
-    region: 'Drummondville, Victoriaville, le Centre-du-Québec et la région de Québec',
+    address: 'Drummondville-Victoriaville — Centre-du-Québec',
+    region: 'Drummondville-Victoriaville, le Centre-du-Québec et la région de Québec',
 };
 
 export const SERVICES = [
