@@ -337,7 +337,7 @@ export default function Home() {
                             <a
                                 href={COMPANY.emailProHref}
                                 data-testid="cta-band-email"
-                                className="rounded-full border border-sky-300/40 px-8 py-4 font-display text-sm font-bold uppercase tracking-wide text-sky-300 transition-colors duration-300 hover:bg-sky-300/10"
+                                className="rounded-full border border-sky-300/40 px-8 py-4 font-display text-sm font-bold lowercase tracking-wide text-sky-300 transition-colors duration-300 hover:bg-sky-300/10"
                             >
                                 {COMPANY.emailPro}
                             </a>
