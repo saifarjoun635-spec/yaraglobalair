@@ -107,7 +107,7 @@ export default function Home() {
                         {[
                             { icon: BadgeCheck, label: 'Techniciens certifiés' },
                             { icon: ShieldCheck, label: 'Fluides gérés écoresponsablement' },
-                            { icon: MapPin, label: 'Drummondville-Victoriaville · Centre-du-Québec' },
+                            { icon: MapPin, label: 'Drummondville · Victoriaville · Centre-du-Québec' },
                         ].map((b) => (
                             <span key={b.label} className="flex items-center gap-2 text-sm text-slate-600">
                                 <b.icon className="h-4 w-4 text-[#1B76C9]" /> {b.label}
@@ -244,7 +244,7 @@ export default function Home() {
                             <Link
                                 to="/notre-vision"
                                 data-testid="home-vision-link"
-                                className="group flex w-full shrink-0 items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3.5 font-display text-sm font-bold uppercase tracking-wide text-[#123057] transition-[background-color,transform] duration-300 hover:scale-[1.03] hover:bg-amber-400 sm:w-auto"
+                                className="group flex w-full shrink-0 items-center justify-center gap-2 rounded-full bg-[#1B76C9] px-6 py-3.5 font-display text-sm font-bold uppercase tracking-wide text-white transition-[background-color,transform] duration-300 hover:scale-[1.03] hover:bg-[#155FA3] sm:w-auto"
                             >
                                 Découvrir notre vision
                                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
